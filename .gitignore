@@ -1,0 +1,19 @@
+# The front end has no build step and no npm dependency: this repository is
+# plain HTML, CSS and JavaScript under src/, so there is nothing generated to
+# ignore. The file exists to keep accidental local files out of the repository.
+
+# Local API override, used to point the page at another back end without
+# editing the tracked configuration.
+src/config.local.js
+
+# Screenshots and other submission material are kept outside this repository.
+screenshots/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
